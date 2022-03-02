@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### CHANGE ME IN THE CONFIG.PY FILE
 
 ```shell
@@ -49,3 +50,10 @@ print(response.text)
 if __name__ == '__main__':
     pass
 ```
+=======
+## CHANGE ME in the CONFIG.PY FILE
+
+BUCKET_NAME = "<CHANGE ME>"
+ACCESS_KEY = "<CHANGE ME>"
+SECRET_KEY = "<CHANGE ME>"
+>>>>>>> 92656c661b0f5ed827c013a12ae41f0ebe97d14b
