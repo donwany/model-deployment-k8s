@@ -54,9 +54,4 @@ print(response.text)
 if __name__ == '__main__':
     pass
 ```
-<<<<<<< HEAD
-=======
-=======
 
-
->>>>>>> 34a4335c33d89d2ed3f1e35982a4871cbbccf7bd
