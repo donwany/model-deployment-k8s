@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### CHANGE ME IN THE CONFIG.PY FILE
 
 ```shell
@@ -6,6 +5,11 @@ BUCKET_NAME = "<CHANGE ME>"
 ACCESS_KEY = "<CHANGE ME>"
 SECRET_KEY = "<CHANGE ME>"
 ```
+### Train Model
+```python
+python trainer.py
+```
+
 ### Build Image
 ````shell
 docker build -t worldbosskafka/iris-model-app:1.0.0 .
@@ -29,7 +33,7 @@ curl --request POST 'http://192.168.205.3:32743/predict' \
  --data-raw '{"sepal_length": 6.2,"sepal_width": 4.6,"petal_length": 2.5,"petal_width": 6.7}'
 ```
 
-### RestAPI with Python
+### RestAPI with Python: python TestAPI.py
 ```python
 import requests
 import json
@@ -51,9 +55,3 @@ if __name__ == '__main__':
     pass
 ```
 =======
-## CHANGE ME in the CONFIG.PY FILE
-
-BUCKET_NAME = "<CHANGE ME>"
-ACCESS_KEY = "<CHANGE ME>"
-SECRET_KEY = "<CHANGE ME>"
->>>>>>> 92656c661b0f5ed827c013a12ae41f0ebe97d14b
