@@ -30,6 +30,8 @@ kubectl get services -o wide
 
 ### Test API
 ```shell
+CHANGE IP ADDRESS TO YOUR OWN
+
 curl --request POST 'http://192.168.205.3:32743/predict' \
  --header 'Content-Type: application/json' \
  --data-raw '{"sepal_length": 6.2,"sepal_width": 4.6,"petal_length": 2.5,"petal_width": 6.7}'
