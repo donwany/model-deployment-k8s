@@ -12,7 +12,7 @@ python trainer.py
 
 ### Build Image
 ````shell
-CHANGE DOCKERNAME USER TO YOUR OWN --> worldbosskafka
+CHANGE DOCKER USERNAME TO YOUR OWN --> worldbosskafka
 
 docker build -t worldbosskafka/iris-model-app:1.0.0 .
 docker run -p 1957:1957 worldbosskafka/iris-model-app:1.0.0
