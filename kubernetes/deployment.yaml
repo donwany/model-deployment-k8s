@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iris-model-app
+  namespace: fraud
+  labels:
+    app: prod
+    team: datascience
+    model: logistics
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: iris-model-app
+  template:
+    metadata:
+      labels:
+        app: iris-model-app
+    spec:
+     containers:
+      - name: iris-model-app
+        image: worldbosskafka/iris-model-app:1.0.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 1957

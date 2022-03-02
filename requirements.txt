@@ -1,0 +1,7 @@
+botocore
+boto3
+config
+flask
+numpy
+scikit-learn==0.23.2
+sklearn
